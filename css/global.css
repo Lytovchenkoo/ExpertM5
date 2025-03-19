@@ -118,6 +118,23 @@ textarea {
   box-sizing: border-box;
 }
 
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  color: var(--color-white);
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-transform: uppercase;
+  background: linear-gradient(#953ff7, #696bfc, #19c7fc);
+}
+
+.button:hover {
+  background: linear-gradient(to right, #953ff7, #19c7fc);
+}
+
 @media (min-width: 1440px) {
   h1 {
     font-size: 80px;

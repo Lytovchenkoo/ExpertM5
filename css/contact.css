@@ -34,15 +34,6 @@
     border-color: var(--blue-gradient);
 }
 
-.btn-gradient {
-    background: linear-gradient(90deg, #a84cf7, #4cc9f0);
-    border: none;
-    padding: 10px 0;
-    width: 100%;
-    border-radius: 10px;
-    text-transform: uppercase;
-    color: var(--color-white);
-}
 
 .btn-gradient:hover {
     opacity: 0.9;
